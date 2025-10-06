@@ -22,7 +22,7 @@ fetch(nasaStationsUrl)
         const stations = data; //Parse json from nasa
         console.log(stations);
 
-        // Group stations by center //chatgpt
+        // Group stations by center //chatgpt, mdn, stackoverflow
         const centersMap = {};
         stations.forEach(station => {
             if (!centersMap[station.center]) {
