@@ -1,4 +1,3 @@
-
 # NASA Base Station Weather Map
 
 A live interactive map displaying NASA base stations across the United States with current weather information fetched from the OpenWeather API. Built with [Leaflet.js](https://leafletjs.com/) for mapping.
@@ -52,8 +51,8 @@ cd nasa-weather-map
 
 ## Usage
 
-1. Place your `nasaStations.json` data file in the `js/` directory.
-2. Add your OpenWeather API key in `js/main.js`:
+1. Open the script.js file.
+3. Add your OpenWeather API key in `js/main.js`:
 
 ```javascript
 const weatherApiKey = 'YOUR_API_KEY_HERE';
@@ -64,7 +63,7 @@ const weatherApiKey = 'YOUR_API_KEY_HERE';
 
 ## Screenshots
 
-**add screenshots of application
+<img width="1885" height="922" alt="nasa-base-station-weather" src="https://github.com/user-attachments/assets/b67701e2-9b8e-4f20-aa0e-71388dd6dbed" />
 
 ## Acknowledgements
 
